@@ -132,6 +132,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AppMain.cpp" />
+    <ClCompile Include="FC.cpp" />
+    <ClCompile Include="GC.cpp" />
+    <ClCompile Include="GM.cpp" />
+    <ClCompile Include="GO.cpp" />
+    <ClCompile Include="IC.cpp" />
+    <ClCompile Include="SM.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="TS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FC.h" />
+    <ClInclude Include="GC.h" />
+    <ClInclude Include="GM.h" />
+    <ClInclude Include="GO.h" />
+    <ClInclude Include="IC.h" />
+    <ClInclude Include="SM.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="TS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
