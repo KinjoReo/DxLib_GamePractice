@@ -1,10 +1,10 @@
 #include"DxLib.h"
 
-#include"FC.h"
+#include"FreamControl.h"
 
-#include"IC.h"
+#include"InputControl.h"
 
-#include"SM.h"
+#include"SceneManager.h"
 
 #define SCREEN_HEIGHT   (480)
 #define SCREEN_WIDTH    (640)

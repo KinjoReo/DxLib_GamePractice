@@ -1,6 +1,6 @@
-#include "GO.h"
+#include "GameOverScene.h"
 #include "DxLib.h"
-#include "SM.h"
+#include "SceneManager.h"
 
 int GameOverImage;
 int GameOverSE;

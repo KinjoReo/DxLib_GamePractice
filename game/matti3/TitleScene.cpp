@@ -1,7 +1,7 @@
-#include "TS.h"
+#include "TitleScene.h"
 #include "DxLib.h"
-#include "IC.h"
-#include "SM.h"
+#include "InputControl.h"
+#include "SceneManager.h"
 
 int TitleImage;
 int TitleBGM;

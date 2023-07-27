@@ -1,5 +1,5 @@
 #include "DxLib.h"
-#include "IC.h"
+#include "InputControl.h"
 
 int old_button;
 int now_button;

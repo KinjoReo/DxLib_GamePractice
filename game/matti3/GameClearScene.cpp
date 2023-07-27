@@ -1,6 +1,6 @@
-#include "GC.h"
+#include "GameClearScene.h"
 #include "DxLib.h"
-#include "SM.h"
+#include "SceneManager.h"
 
 int GameClearImage;
 int GameClearSE;

@@ -1,4 +1,4 @@
-#include "FC.h"
+#include "FreamControl.h"
 #include "DxLib.h"
 
 int FreamTime;

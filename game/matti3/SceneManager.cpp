@@ -1,8 +1,8 @@
-#include "SM.h"
-#include "TS.h"
-#include "GM.h"
-#include "GC.h"
-#include "GO.h"
+#include "SceneManager.h"
+#include "TitleScene.h"
+#include "GameMainScene.h"
+#include "GameClearScene.h"
+#include "GameOverScene.h"
 
 GAME_MODE Game_Mode;
 GAME_MODE Next_Mode;

@@ -1,7 +1,7 @@
-#include "GM.h""
+#include "GameMainScene.h""
 #include "DxLib.h"
 #include "Stage.h"
-#include "SM.h"
+#include "SceneManager.h"
 
 #define TIMELIMIT     (3600 * 3)
 #define NUMBER_IMAGE_MAX (10)

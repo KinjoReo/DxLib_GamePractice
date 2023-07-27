@@ -1,6 +1,6 @@
 #include "Stage.h"
 #include "DxLib.h"
-#include "IC.h"
+#include "InputControl.h"
 
 #define HEIGHT (12)
 #define WIDTH (12)
@@ -64,7 +64,7 @@ int StageInitialize(void)
 	int i;
 
 	LoadDivGraph("images/block.png", BLOCK_IMAGE_MAX, BLOCK_IMAGE_MAX, 1, BLOCKSIZE, BLOCKSIZE, BlockImage);
-	StageImage = LoadGraph("umage/stage.png");
+	StageImage = LoadGraph("images/stage.png");
 
 	ClickSE = LoadSoundMem("sounds/click_se.mp3");
 	FadeOutSE = LoadSoundMem("sounds/fadeout_se.mp3");
