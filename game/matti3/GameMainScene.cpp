@@ -44,8 +44,8 @@ int GameMainScene_Initialize(void)
 	}
 	else
 	{
-		GameLevel++;
-		Set_StageMission(3);
+		
+	
 	}
 	GameTime = TIMELIMIT;
 
@@ -82,6 +82,8 @@ void GameMainScene_Update(void)
 	if (Get_StageClearFlag())
 	{
 		Change_Scene(E_GAME_CLEAR);
+		GameLevel++;
+		Set_StageMission(3);
 	}
 }
 
