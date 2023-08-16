@@ -41,6 +41,7 @@ int GameMainScene_Initialize(void)
 		GameLevel = 1;
 		Set_StageMission(3);
 		GameCount++;
+		
 	}
 	else
 	{
@@ -113,5 +114,5 @@ void GameMainScene_Draw(void)
 		PosX -= 20;
 	} while (tmp_score > 0);
 
-	DrawBox(491, 469, 509, 469 - GameTime / 60 * 2, 0x0033ff, TRUE);
+	DrawBox(491, 469, 509, 369 - GameTime / 60 * 2, 0x0033ff, TRUE);
 }

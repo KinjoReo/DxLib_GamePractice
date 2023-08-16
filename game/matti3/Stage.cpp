@@ -63,7 +63,7 @@ int StageInitialize(void)
 	int ret = 0;
 	int i;
 
-	LoadDivGraph("images/block.png", BLOCK_IMAGE_MAX, BLOCK_IMAGE_MAX, 1, BLOCKSIZE, BLOCKSIZE, BlockImage);
+	LoadDivGraph("images/rebb.png", BLOCK_IMAGE_MAX, BLOCK_IMAGE_MAX, 1, BLOCKSIZE, BLOCKSIZE, BlockImage);
 	StageImage = LoadGraph("images/stage.png");
 
 	ClickSE = LoadSoundMem("sounds/click_se.mp3");
