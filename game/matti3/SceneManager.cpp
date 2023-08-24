@@ -11,28 +11,44 @@ int SceneManager_Initialize(GAME_MODE mode)
 {
 	int Read_Error;
 
-	Read_Error = TitleScene_Initialize();
-	if (Read_Error == D_ERROR)
+	if (mode == E_TITLE)
+
 	{
-		return D_ERROR;
+		Read_Error = TitleScene_Initialize();
+		if (Read_Error == D_ERROR)
+		{
+			return D_ERROR;
+		}
 	}
 
-	Read_Error = GameMainScene_Initialize();
-	if (Read_Error == D_ERROR)
+	if (mode == E_GAMEMAIN)
+
 	{
-		return D_ERROR;
+		Read_Error = GameMainScene_Initialize();
+		if (Read_Error == D_ERROR)
+		{
+			return D_ERROR;
+		}
 	}
 
-	Read_Error = GameClearScene_Initialize();
-	if (Read_Error == D_ERROR)
+	if (mode == E_GAME_CLEAR)
+
 	{
-		return D_ERROR;
+		Read_Error = GameClearScene_Initialize();
+		if (Read_Error == D_ERROR)
+		{
+			return D_ERROR;
+		}
 	}
 
-	Read_Error == GameOverScene_Initialize();
-	if (Read_Error == D_ERROR)
+	if (mode == E_GAME_OVER)
+
 	{
-		return D_ERROR;
+		Read_Error == GameOverScene_Initialize();
+		if (Read_Error == D_ERROR)
+		{
+			return D_ERROR;
+		}
 	}
 
 	Game_Mode = mode;
