@@ -3,7 +3,7 @@
 #include "Stage.h"
 #include "SceneManager.h"
 
-#define TIMELIMIT     (3600 * 3)
+#define TIMELIMIT     (4600 * 3)
 #define NUMBER_IMAGE_MAX (10)
 
 int GameScore;
@@ -41,12 +41,6 @@ int GameMainScene_Initialize(void)
 		GameLevel = 1;
 		Set_StageMission(3);
 		GameCount++;
-		
-	}
-	else
-	{
-		
-	
 	}
 	GameTime = TIMELIMIT;
 
@@ -114,5 +108,5 @@ void GameMainScene_Draw(void)
 		PosX -= 20;
 	} while (tmp_score > 0);
 
-	DrawBox(491, 469, 509, 369 - GameTime / 60 * 2, 0x0033ff, TRUE);
+	DrawBox(491, 469, 509, 469 - GameTime / 60 * 2, 0x0033ff, TRUE);
 }
